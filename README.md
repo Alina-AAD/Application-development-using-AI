@@ -1,2 +1,23 @@
 # Application-development-using-AI
-CS and JavaScript/Node.js fundamentals, followed by TypeScript, React and backend development with AI-assisted coding, then vibe coding and information security
+# Вайб-кодинг: разработка приложений с помощью AI
+
+Учебный репозиторий курса, выстроенного как последовательный путь: от классических основ Computer Science и JavaScript/Node.js — к TypeScript, React и серверной разработке с AI-кодингом, затем к продвинутому вайб-кодингу и информационной безопасности, и в завершение — к fullstack-проекту с деплоем.
+
+## Маршрут
+
+1. **Основы Computer Science и JavaScript/Node.js** — алгоритмы и структуры   данных, управляющие конструкции, функции и колбэки, DOM и событийная модель, асинхронность (промисы, async/await) и серверный JavaScript.
+2. **TypeScript, React и серверная разработка с AI-кодингом** — типизация,   Git и GitVerse, React, backend на Node.js и NestJS, введение в AI-кодинг и AI как инструмент обучения и отладки.
+3. **Продвинутый вайб-кодинг и информационная безопасность** — prompt   engineering, полный цикл вайб-кодинга, критический анализ и code review AI-кода, безопасность при разработке с AI (OWASP).
+4. **Fullstack-проект с деплоем** — Backend-as-a-Service и базы данных (Supabase), fullstack-интеграция, деплой и основы DevOps (Яндекс Cloud, GitVerse), итоговый проект и предзащита.
+
+## Кейсы
+
+- Викторина на JavaScript
+- Консольная обработка CSV на Node.js
+- Fullstack «Список задач»
+- Web-приложение на публичном API через GigaCode
+- MVP целиком через вайб-кодинг за одно занятие
+- Аудит безопасности по OWASP
+- SaaS-прототип
+- Междисциплинарный проект по основной специальности
+- Междисциплинарный проект по основной специальности
