@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Мастерская</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Карточка события -->
+    <div class="card">
+      <h1 id="event-title"></h1>
+      <p id="event-date"></p>
+      <p id="event-place"></p>
+      <p id="event-description"></p>
+    </div>
+
+    <!-- Кнопка и программа -->
+    <button id="show-program">Показать программу</button>
+    <p id="program" hidden></p>
+
+    <!-- форма с выбором услуг-->
+    <div class="form-block">
+      <form id="service-form">
+        <label>
+          <input type="checkbox" id="guide" />
+          Экскурсия с гидом
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" id="audio" />
+          Аудиогид
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" id="catalog" />
+          Каталог выставки
+        </label>
+        <br /><br />
+        <button type="submit">Рассчитать</button>
+      </form>
+    </div>
+
+    <!-- Блоки для ошибок и результатов (все скрыты) -->
+    <p id="data-error" hidden></p>
+    <p id="choice-error" hidden>Выберите хотя бы одну услугу.</p>
+    <div id="result" hidden></div>
+    <pre id="report-json" hidden></pre>
+
+    <!-- Скрипт подключаем в самом конце, после всей разметки -->
+    <script src="app.js"></script>
+  </body>
+</html>
